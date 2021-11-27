@@ -16,7 +16,9 @@ header('location:view_anggota.php');
 }
 ?>
 <form method="POST">
-<table class="table table-bordered" border="1">
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<a href="index1.php" class="btn btn-danger">MENU</a>
+<table class="table table-bordered" border="">
 	<tr>
 		<td>Nama</td>
 		<td><input type="text" name="nama" class="form-control"></td>
