@@ -1,8 +1,8 @@
 <?php
 include("koneksi.php");
-$query_delete=mysqli_query($koneksi,"delete from jenis_barang where id_anggota='".$_GET['id_anggota']."'");
+$query_delete=mysqli_query($koneksi,"delete from barang where id_barang='".$_GET['id_barang']."'");
 if($query_delete) {
-	header("location:view_nama_barang.php");
+	header("location:tampil_barang.php");
 }else{
 	echo mysqli_error();
 } 

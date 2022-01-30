@@ -3,7 +3,7 @@
 $server="localhost";
 $user="root";
 $password="";
-$database="phpregmalam";
+$database="uaspgr3";
 
 $koneksi=mysqli_connect($server,$user,$password,$database);
 
@@ -12,3 +12,4 @@ echo "Koneksi Sukses";
 }else{
 echo "koneksi gagal";
 }
+?>
